@@ -3,6 +3,7 @@
 A docker image for working with queues being monitored by supervisor as recommended by laravel.
 
 ## Environment Configuration
+Added `EXTRA_ARGS` to pass any extra arg to the worker command.
 
 Running with redis you can configure your `QUEUE_CONNECTION` environment variable to match your redis link. In our case the link is called `redis` so the default value will be `redis`.
 
